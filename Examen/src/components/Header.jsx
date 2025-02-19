@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/react.svg'
-import Nav from './Nav'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
@@ -8,7 +8,9 @@ const Header = () => {
         <div>
             <img src={logo} alt="" />
         </div>
-        <Nav/>
+        <div>
+          <Navbar/>
+        </div>
     </header>
   )
 }
